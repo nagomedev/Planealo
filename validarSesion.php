@@ -1,5 +1,6 @@
 <?php
 session_start();
+include 'cabecera.html'; // archivo a la cabecera.
 include 'conexion.php'; // Archivo con la conexión a la base de datos
 
 if (isset($_POST['correo']) && isset($_POST['password'])) {
@@ -31,6 +32,7 @@ if (isset($_POST['correo']) && isset($_POST['password'])) {
     $stmt->close();
     $conn->close();
 } else {
+
 ?>
 <form class="formulario_acceso" action="validarSesion.php" method="POST">
         <p>ACCESO</p>
