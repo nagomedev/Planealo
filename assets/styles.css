@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #b9b9b9; 
+    width: 50%; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.formulario_acceso {
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+    width: 100%;
+}
+/*formulario*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+.completo {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.centrado {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+h2 {
+    color: #333;
+}
+
+.formulario-conjunto {
+    display:flex;
+    align-items:center;
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
